@@ -12,7 +12,52 @@
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
+   <body>
+    <div class="bg-info">
+    <div class="container">
+      <h1 class="text-center text-uppercase">Online Tutorials</h1>
+    </div>
+    </div>
+    <div class="bg-primary">
+      <h2 class="text-justify">Bootstrap</h2>
+    </div>
+    <blockquote class="blockquote">
+      <p><mark>Bootstrap</mark> is a free and open-source CSS framework directed at responsive, <u>mobile-first front-end web development</u>. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+    </blockquote>
+    <div class="text-center">
+    <p>When you download Bootstrap 4 you will get some CSS files, some Javascript files and several .map files. The .map files are a file that help your browser identify an item in the .min file and tell you where it is located in the non minified CSS or JS file. Therefore if you are not using the .min files (<del>which you don’t have to</del> Actually my javascript isnt working without the .min files so nevermind…) you can also delete the .map files.</p>
+    </div>
+    <p><h3 class="text-danger">**NOTE ON INSTALLATION**</h3> While you can use Bootstrap with just the CSS file, this will disable many of the features such as the drop down menu. You have to download, install and reference the dependent files, or simply link to a CDN of those files. For example Bootstrap 4 requires JS, popper.js and jQuery.</p>
+    <br>
+    <p class="text-info">Some things to remember:</p>
+      <p class="text-danger">GRID SYSTEM</p>
+      <ul class="p-5 bg-muted">
+        <li>12 column grid system</li>
+        <li>all items must be in rows</li>
+        <li>to prevent things from going full width use the wrapper class</li>
+        <li>you can put rows inside of rows</li>
+      </ul>
+    </p>
+    <br>
+    <p class="text-danger">STYLING</p>
+      <p class="p-5">You can overwrite the default CSS styling by specifying the same class in another CSS file that is referenced AFTER the default bootstrap CSS file. Just like a child theme in wordpress! But the 2nd CSS file with customization must be referenced AFTER the first.</p>
+      <br>
+      <!-- CONTEXTUAL BUTTONS -->
+      <p class="text-danger">A list of buttons can be seen below</p>
+      <button class="btn btn-default">Default</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-warning">Warnig</button>
+      <button class="btn btn-danger">Delete</button>
+      <button class="btn btn-link">Link</button>
+      <br>
+      <br>
+      <p class="text-danger">Variance in button sizes is here</p>
+      <button class="btn btn-default btn-lg">Default</button>
+      <button class="btn btn-default">Default</button>
+      <button class="btn btn-primary btn-sm">Default</button>
+      <button class="btn btn-default btn-xs" disabled="disabled">Default</button>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
